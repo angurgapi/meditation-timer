@@ -1,8 +1,7 @@
 :root{
-  --palewhite:rgba(255,255,255,.6);
+  --palewhite:rgba(255,255,255,.7);
   --paleblack:rgba(0,0,0,.6);
 }
-
 
 * {
   margin: 0;
@@ -40,7 +39,7 @@ video{
 }
 .time-select button,
 .sound-picker button {
-  color: white;
+  color: var(--palewhite);
   background: none;
   font-size: 20px;
   border-radius: 5px;
@@ -110,7 +109,6 @@ video{
   top: 10%;
 }
 .replay{
-  color:var(--palewhite);
   position: absolute;
   bottom: 10%;
   height: 2rem;
@@ -119,9 +117,8 @@ video{
 .play{
   margin: auto;
   font-size: 5rem;
-  var(--palewhite);
+  color: var(--palewhite);
 }
-
 
 @media (min-width: 1124px) {
   video{
